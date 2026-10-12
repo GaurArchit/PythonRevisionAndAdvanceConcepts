@@ -94,3 +94,26 @@ columns = 6
 # print(classify_triangle(side1, side2, side3))
 
 """Data structures in python """
+# String 
+
+# greeting="Hello world"
+
+# sam=greeting.upper()
+# print(sam)
+
+# print(greeting.index('llo'))
+# list=greeting.split('o')
+# print(list)
+
+s=input();
+
+def checkPalindrome(s):
+    checkString=""
+    for ch in s:
+        if ch.isalnum():
+            checkString+=ch
+    return checkString==checkString[::-1]
+
+checkPalindrome(s)
+
+
